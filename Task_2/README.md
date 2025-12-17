@@ -25,35 +25,35 @@ Write clean, readable, and efficient code
 --Bitwise operations
 
 ## Problems Implemented
-1️⃣ Defanging an IP Address
+1️. Defanging an IP Address
 
 Converts a valid IPv4 address by replacing "." with "[.]".
 Demonstrates string manipulation.
 
-2️⃣ Find Numbers with Even Number of Digits
+2️. Find Numbers with Even Number of Digits
 
 Counts how many integers in a list contain an even number of digits.
 Demonstrates number handling and loops.
 
-3️⃣ Number of Good Pairs
+3️. Number of Good Pairs
 
 Counts pairs (i, j) where:
 nums[i] == nums[j]
 i < j
 Demonstrates nested logic and frequency counting.
 
-4️⃣ Smaller Numbers Than Current
+4️. Smaller Numbers Than Current
 
 For each element, finds how many numbers are smaller than it.
 Demonstrates array traversal and comparison logic.
 
-5️⃣ Subtract Product and Sum of Digits
+5️. Subtract Product and Sum of Digits
 
 Calculates:
 (Product of digits) − (Sum of digits)
 Demonstrates digit extraction and arithmetic operations.
 
-6️⃣ XOR Operation in an Array
+6️. XOR Operation in an Array
 
 Generates an array using:
 nums[i] = start + 2*i
