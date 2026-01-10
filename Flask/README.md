@@ -6,12 +6,18 @@ This project demonstrates basic Flask routing, query parameter handling, and dyn
 
 ##  Features
 
- 🔠 Convert username to **UPPERCASE**
- 🔡 Convert username to **lowercase**
+ 🔠 Convert username to UPPERCASE
+ 
+ 🔡 Convert username to lowercase
+ 
  🔁 Reverse the username
+ 
  📏 Count total characters
+ 
  🔊 Count vowels in the name
+ 
  🎯 Check if the name is a palindrome
+ 
  ⏰ Display time-based greeting (Morning / Afternoon / Evening)
 
 
