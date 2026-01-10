@@ -41,7 +41,7 @@ pip install flask
 2️. Run the Flask App
 
 ```bash
-python app.py
+python flask_task.py
 ```
 
 3️. Open in Browser
