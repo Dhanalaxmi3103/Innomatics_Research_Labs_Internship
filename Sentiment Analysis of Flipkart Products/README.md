@@ -183,10 +183,6 @@ Sentiment Analysis of Flipkart Product/
 
 │
 
-├── mlruns/                         # MLflow experiment tracking folder
-
-│
-
 ├── requirements.txt
 
 └── README.md
