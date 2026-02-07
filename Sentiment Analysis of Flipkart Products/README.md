@@ -1,4 +1,4 @@
-## Sentiment Analysis 
+## Sentiment Analysis of Real-time Flipkart Product Reviews
 
 In this project, I built an end-to-end Sentiment Analysis system to classify customer reviews as Positive or Negative and understand customer dissatisfaction patterns.
 
@@ -7,13 +7,13 @@ In this project, I built an end-to-end Sentiment Analysis system to classify cus
 First, I loaded the dataset using pandas.
 
 
-  Checked the dataset shape
+  --Checked the dataset shape
 
-  Verified missing values
+  --Verified missing values
 
-  Analyzed class distribution (positive vs negative)
+  --Analyzed class distribution (positive vs negative)
 
-  Explored frequently occurring words
+  --Explored frequently occurring words
 
 Observed patterns in negative reviews to understand customer pain points
 
@@ -23,27 +23,27 @@ This helped me understand the data quality and sentiment distribution.
 
 The raw review text contained noise such as:
 
-  Special characters
+  --Special characters
 
-  URLs
+  --URLs
 
-  Numbers
+  --Numbers
 
-  Stopwords
+  --Stopwords
 
 So I performed the following preprocessing steps:
 
-  Converted text to lowercase
+ -- Converted text to lowercase
 
-  Removed URLs
+  --Removed URLs
 
-  Removed special characters and numbers
+  --Removed special characters and numbers
 
-  Removed stopwords using NLTK
+  --Removed stopwords using NLTK
 
-  Applied lemmatization
+  --Applied lemmatization
 
-  Tokenized the text
+  --Tokenized the text
 
 This normalization improved model learning and reduced noise.
 
@@ -115,20 +115,6 @@ I trained three machine learning models on each representation:
 
   Captured non-linear relationships
 
-## 6. Hyperparameter Tuning
-
-I used Optuna for hyperparameter tuning.
-
-I tuned:
-
-  Regularization parameter (C) for Logistic & SVM
-
-  Kernel type for SVM
-
-  Number of estimators and depth for Random Forest
-
-The objective was to maximize F1-score.
-
 ## 7. Model Evaluation
 
 I evaluated all models using:
@@ -139,11 +125,6 @@ I evaluated all models using:
 
   F1-score (primary metric)
 
-  Training Time
-
-  Testing Time
-
-  Model Size
 
 F1-score was chosen because it balances Precision and Recall, which is important for sentiment classification.
 
@@ -192,10 +173,6 @@ Sentiment Analysis of Flipkart Product/
 
 │
 
-├── Sentiment_hyperparameter.py     # Main training + tuning script
-
-│
-
 ├── best_model.pkl                  # Saved best performing model
 
 ├── vectorizer.pkl                  # Saved TF-IDF vectorizer
@@ -224,10 +201,6 @@ Sentiment Analysis of Flipkart Product/
   Multiple text embeddings
 
   Model comparison
-
-  Hyperparameter tuning (Optuna)
-
-  MLflow tracking
 
   Performance evaluation
 
