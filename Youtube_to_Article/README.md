@@ -46,14 +46,11 @@ User Input → Transcript Extraction → Fallback Handling → Text Processing �
 ---
 ## Key Learnings
 Handling real-world API failures with fallback strategies
-Building modular and scalable AI systems
-Working with LangChain pipelines and agents
-Designing user-friendly AI applications
 
-## Future Improvements
-Add multi-language support
-Improve article formatting (headings, bullets)
-Deploy on cloud (Streamlit Cloud / Render)
-Add history/dashboard feature
+Building modular and scalable AI systems
+
+Working with LangChain pipelines and agents
+
+Designing user-friendly AI applications
 
 
